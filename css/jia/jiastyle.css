@@ -1,0 +1,39 @@
+/* About Us Page */
+
+div#about-page {
+    margin-top: 50px;
+}
+
+img#about-img {
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+p#about-hg {
+    background: #dedede;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+/* Button override css */
+
+.btn-primary {
+    background-color: #6b9287;
+    border-color: #b3c19d;
+    border-radius: 30px;
+    margin-left: 10px;
+	padding: 15px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #b3c19d;
+    border-color: #6b9287;
+}
+
+/* Product Box Alignment */
+
+h5.card-title {
+    min-height: 50px;
+}
+

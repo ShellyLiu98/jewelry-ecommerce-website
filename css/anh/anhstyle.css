@@ -1,0 +1,59 @@
+/*Promotion Page */
+div#promotion-page {
+    padding-top: 50px;
+}
+
+img#image1 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+img#image2 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+img#image3 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+h5.coupon-code {
+    background: #6b9287;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 4px dashed #000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6b9287;
+    border-color: #b3c19d;
+    border-radius: 40px;
+    padding: 20px 50px;
+}
+
+
+/* Contact Us */
+select#subject {
+    clear: both;
+    width: 100%;
+    padding: 8px;
+	border-radius: 5px;
+    color: #6d757d;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea#message{
+	border: 1px solid #6b9287;
+}
+
+button.btn.btn-primary.w-100 {
+	background-color: #6b9287;
+    border-color: #b3c19d;
+    border-radius: 30px;
+}

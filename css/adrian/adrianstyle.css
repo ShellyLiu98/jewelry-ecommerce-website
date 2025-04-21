@@ -1,0 +1,108 @@
+/* collections section in homepage */
+
+input.quantity {
+    width: 50px;
+}
+
+div#collections h2 {
+    padding: 20px 0;
+    color: #d9aa74;
+    font-size: 40px;
+}
+
+div#collections {
+    height: auto;
+    padding: 50px;
+}
+
+div#collections img {
+    width: 270px;
+}
+
+div#collections li {
+    float: left;
+    display: flex;
+	margin: 3px;
+}
+div#collections ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#collections ul li a {
+    display: flex;
+    position: relative;
+}
+
+h3.catg-name {
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    bottom: -8px;
+    background: #0000004f;
+    color: #ffffff;
+    padding: 15px;
+}
+
+h3.catg-name:hover {
+    background: #709287;
+}
+
+/* featured products in homepage */
+
+div#featured-products {
+    background: #f3f3f3;
+    padding: 100px;
+    margin: 50px 0;
+}
+
+div#featured-products .nav-item a {
+    color: #709287;
+	font-size:18px;
+}
+
+div#myTabContent {
+    padding-top: 30px;
+}
+
+div#payment-page {
+    margin-top: 50px;
+}
+
+button#go-to-payment {
+    margin: 50px auto 0;
+    display: inherit;
+}
+
+/* payment page*/
+
+div#cart-summary {
+    padding: 50px;
+    background: #eeeeee;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #6b9287;
+}
+
+.nav-link{
+	color:#6b9287;
+}
+
+.nav-link:hover{
+	color:#000000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6b9287;
+    border-color: #B1C29E;
+}
+
+.btn-primary:hover{
+	background-color:#B1C29E;
+	border-color: #6b9287;
+}
+

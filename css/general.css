@@ -1,0 +1,290 @@
+/* General Classes, Header, Navigation by Adrian */
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Yeseva One", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	font-family: "Mona Sans", sans-serif;
+}
+
+.ajbutton{
+	padding: 15px 30px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+	border-bottom: 2px solid #00000087;
+}
+
+header {
+    min-height: 150px;
+    background: #659287;
+}
+
+.marketing-text {
+  margin: auto;
+}
+
+ul.social-medias li img {
+    width: 28px;
+}
+ul.social-medias li {
+    float: left;
+}
+ul.social-medias {
+    list-style: none;
+}
+
+h1#logo {
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.search {
+    margin: 39px;
+}
+
+button.btn.my-2.my-sm-0 {
+    background-image: linear-gradient(#ffffff, #ebebeb);
+}
+button.btn.my-2.my-sm-0:hover {
+    background-image: linear-gradient(#ebebeb, #ffffff);
+}
+
+input#search-input {
+    min-width: 75%;
+}
+
+
+div#opening-hours p {
+    margin: 0;
+    color: #fff;
+}
+
+div#opening-hours {
+    align-content: center;
+}
+
+div#top-section-navigation {
+    background-color: #B1C29E;
+    padding: 10px;
+    display: flex;
+}
+
+div#top-section-navigation p{
+    margin:0;
+}
+
+div#menu-header {
+    background-color: #fff;
+    background-image: linear-gradient(#ffffff, #ebebeb);
+}
+
+div#menu-header  nav.navbar.navbar-expand-lg {
+    padding: 0;
+    margin: 0;
+}
+
+div.navbar-nav a {
+    color: #000;
+    position: relative;
+    padding: 20px!important;
+	float: left;
+    display: inline-block; 
+	border-left: 1px solid #ebebeb;
+}
+
+div.navbar-nav a:hover, div.navbar-nav a.active {
+    font-weight: 700;
+    text-decoration: none;
+    color: #6b9287;
+	background-image: linear-gradient(#ebebeb, #ffffff);
+}
+
+button.navbar-toggler {
+    margin: 0 auto;
+}
+
+div#menu-header li a:last-child {
+    border-right: 1px solid #ebebeb;
+}
+
+/* ABOUT US PAGE PREVIEW  BY LIUJIA */
+
+div#about-preview {
+    background: #fde5a5;
+    padding: 50px 0;
+}
+
+button.green-btn, a.green-btn {
+    background: #6b9287;
+    color: #ffffff;
+    border: 1px solid #b3c19d;
+}
+
+/* FOOTER SECTION DOWNLOAD, AND COPYRIGHT BY LIUJA*/
+footer{
+	min-height: 400px;
+	background: #DEAA79;
+	padding: 90px;
+	margin-top: 100px;
+}
+
+div#download img {
+    width: 145px;
+}
+
+div#download li {
+    margin: 20px 0;
+}
+div#download ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Footer Quick Links Section and Let's Connect by Anh */
+
+
+div#quicklinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#quicklinks ul li a {
+    color: #000;
+}
+
+
+a#connect-btn {
+    background: #FFE6A9;
+    color: #000000;
+}
+
+ul.connect-socials-footer img {
+    width: 40px;
+}
+
+ul.connect-socials-footer li {
+    float: left;
+}
+ul.connect-socials-footer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#copyright p {
+    font-size: 12px;
+}
+
+div#copyright {
+    display: inline-block;
+    margin: 50px 0 0;
+    border-top: 1px solid #c79863;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+/* Mobile Responsive by Adrian */ 
+
+
+/* IPAD 1024px */
+@media only screen and (max-width: 1024px) {
+	div#opening-hours {
+		text-align: center;
+	}
+
+	a.nav-item.nav-link {
+		font-size: 15px;
+	}
+
+	div#collections li {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	.card {
+		text-align: center;
+	}
+
+	.ajbutton {
+		padding: 10px;
+		margin-top: 14px;
+	}	
+}
+
+/* IPAD 768px */
+@media only screen and (max-width: 768px) {
+
+	.col, .col-6, div#opening-hours {
+		width: 100%;
+		float: none;
+		flex: unset;
+		text-align: center;
+		max-width: 100%;
+	}
+
+	.float-left, .float-right {
+		float: none !important;
+		text-align: center;
+	}
+
+	ul.social-medias {
+		width: 147px;
+		margin: 0 auto;
+	}
+	
+	h1#logo {
+		color: #ffffff;
+		padding: 10px 0;
+	}
+
+	.search {
+		margin: 10px;
+	}
+
+	input#search-input {
+		min-width: 87%;
+	}
+
+	div#opening-hours {
+		margin-bottom: 20px;
+	}
+
+	ul.connect-socials-footer {
+			height: 10px;
+			width: 125px;
+			margin: 0 auto 50px;
+	}
+	
+}
+
+/* MOBILE 500px */
+@media only screen and (max-width: 500px) {	
+	body {
+		text-align: center;
+	}
+
+	input#search-input {
+		min-width: 100%;
+	}
+		
+	button.btn.my-2.my-sm-0 {
+	width: 100%;
+	}
+
+	div#featured-products {
+		padding: 0px;
+	}
+
+	footer {
+		padding: 50px 0;
+	}	
+}
+
